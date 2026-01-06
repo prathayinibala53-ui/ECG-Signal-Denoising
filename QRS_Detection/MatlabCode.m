@@ -2,7 +2,7 @@
 fs = 200;               % Sampling frequency (Hz)
 t = 0:1/fs:10;          % 10-second signals
 
-ECG3 = sin(2*pi*1.2*t) + 0.05*randn(1,length(t));
+ECG3 = sin(2*pi*1.2*t) + 0.05*randn(1,length(t)); %note that these can be replaced with reading in ECG signals 
 ECG4 = sin(2*pi*1.1*t) + 0.05*randn(1,length(t));
 ECG5 = sin(2*pi*1.3*t) + 0.05*randn(1,length(t));
 ECG6 = sin(2*pi*1.25*t) + 0.05*randn(1,length(t));
